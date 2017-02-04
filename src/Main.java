@@ -3,9 +3,7 @@ This code is words to output Console.
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Circle riteral is : \\");
-        System.out.println("apostoropy riteral is : \'");
-        System.out.println("eight words is : \000");
-        System.out.println("sixteen words is : \u0000");
+        System.out.println("8進数の101文字は: \101");
+        System.out.println("16進数0061文字は: \u0061");
     }
 }
