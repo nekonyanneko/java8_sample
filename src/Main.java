@@ -13,5 +13,7 @@ public class Main {
         int num2 = Integer.parseInt(str2);
         System.out.println(num1 + "が入力されました");
         System.out.println(num2 + "が入力されました");
+
+        System.out.println("足し算の結果は：" + (num1+num2));
     }
 }
