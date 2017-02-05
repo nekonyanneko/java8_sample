@@ -7,7 +7,7 @@ import java_car.CarException;
 import java.io.*;
 
 public class Main {
-    public static void main(String[] args) throws IOException
+    public static void main(String[] args)
     {
         Car car1 = new Car();
         try {
