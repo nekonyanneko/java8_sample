@@ -1,6 +1,8 @@
-/*
+package main;/*
 This code is words to output Console.
  */
+import java_car.Car;
+
 import java.io.*;
 
 public class Main {
