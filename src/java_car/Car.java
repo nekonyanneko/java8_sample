@@ -10,11 +10,18 @@ public class Car {
         this.gas = 0;
         System.out.println("車を作成しました");
     }
-    public void setCar(int n, double g)
+    public void setCar(int n, double g) throws CarException
     {
-        this.num = n;
-        this.gas = g;
-        System.out.println("ナンバーを"+this.num+"にガソリンを"+this.gas+"にしました");
+        if (g < 0)
+        {
+            throw new CarException();
+        }
+        else
+        {
+            this.num = n;
+            this.gas = g;
+            System.out.println("ナンバーを" + this.num + "にガソリンを" + this.gas + "にしました");
+        }
     }
     public void show()
     {
